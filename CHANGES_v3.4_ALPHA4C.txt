@@ -1,0 +1,21 @@
+WIRZA v3.4 Alpha 4C - First Person Visual Bridge
+
+Added:
+- FirstPersonRenderBridge (build-gated, visual-only)
+- SignatureProfiles.h: exact-version allow-list; intentionally no guessed fallback
+- Item Customizer transform logic: scale / X / Y / rotation
+- Shields transform logic: shield-only scale / X / Y
+- 1.7 Visuals transform logic: local swing presentation / sword-block pose / scale
+- Thread-safe held-item ID cache for render-time shield/sword classification
+- Diagnostics panel status for FIRST-PERSON VISUALS
+
+Safety / compatibility:
+- No packet changes
+- No reach or combat mechanics changes
+- No anti-cheat bypass
+- If an exact verified Minecraft build signature profile is absent, the hook is not installed.
+- The verified first-person profile list is intentionally empty until tested against an actual Minecraft for Windows build.
+
+Important:
+- Source/static implementation only. Windows compile and Minecraft runtime verification are still pending.
+- Therefore Item Customizer / Shields / 1.7 Visuals remain Partial, not Implemented.

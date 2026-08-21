@@ -1,0 +1,30 @@
+WIRZA v3.4 Alpha 4E changes
+
+ADDED
+- ActorOverlayRenderBridge.cpp/.h
+- ActorOverlaySignatureProfiles.h
+- Local player health/max-health snapshot fields
+- Read-only minecraft:health decrease observer
+- Recent attacked Actor/entity-id tracking
+- Damage Tint timed full-screen fade
+- Hit Color actor-overlay policy
+- Hit Color duration setting
+- Actor overlay diagnostics in the WIRZA menu
+
+CHANGED
+- Damage Tint: Planned -> Partial
+- Hit Color: Planned -> Partial
+- VisualEffects render order now includes Damage Tint before Block Outline/HUD
+- CMake source list updated
+
+SAFETY
+- No health/damage writes
+- No reach changes
+- No attack validity changes
+- No invulnerability-time writes
+- No packet/network mutation
+- No anti-cheat bypass or stealth behavior
+
+COMPATIBILITY
+- ActorOverlaySignatureProfiles remains empty until exact-build Windows verification.
+- Unknown builds safely disable Hit Color's actor overlay hook.

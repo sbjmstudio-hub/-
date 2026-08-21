@@ -1,0 +1,19 @@
+WIRZA v3.4 - Memory Write / OBS Integration Changes
+
+Added
+- src/client/MemoryWriteBridge.cpp
+- src/client/MemoryWriteBridge.h
+
+Changed
+- GameBridge now routes camera/FOV behavior through MemoryWriteBridge.
+- GameDataBridge exposes the currently validated ClientInstance pointer to the guarded GUI writer.
+- ClientCore ticks guarded GuiData writes after GameData refresh.
+- UI supports WIRZA-HUD-only GUI scale and shows Memory Write / OBS diagnostics.
+- Lighting prefers the native gamma hook and uses the previous D3D12 brightness path as fallback.
+- D3D12Hooks verifies swapchain window ownership and exposes capture diagnostics.
+- Launcher detects OBS Game Capture graphics-hook modules before loading WIRZA when OBS is already running.
+- FOV, GUI Scale, and Lighting registry state changed Partial -> Implemented in source.
+
+Safety
+- No competitive gameplay memory writes were added.
+- No packet, reach, damage, movement speed, knockback, inventory, anti-cheat, stealth, or AV-evasion behavior was added.

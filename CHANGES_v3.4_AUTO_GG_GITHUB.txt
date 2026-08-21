@@ -1,0 +1,15 @@
+WIRZA v3.4 - Auto GG / GitHub revision
+
+- Removed Auto Text Hotkey (original module #7).
+- Replaced Auto Text Actions with Auto GG.
+- Auto GG sends fixed text "gg" only after a strong victory result is observed.
+- Sources: verified TitleSnapshot and recent timestamped ChatSnapshot fallback.
+- Does not send on kill events, keybinds, clicks, movement, or arbitrary macros.
+- One message maximum per detected victory result; re-arms after the result clears.
+- The Hive Server Safe Mode allows Auto GG because Hive officially lists Auto GG as allowed.
+- CubeCraft/Lifeboat/MegaSMP/unknown multiplayer disable Auto GG conservatively.
+- Active module count: 54 (20 Implemented / 33 Partial / 1 Planned).
+- GitHub Actions build/sign/package workflow retained.
+
+Runtime note:
+The exact current Minecraft for Windows Title/Chat adapter remains build-bound, so Auto GG stays Partial until a real Windows/Minecraft build is verified.

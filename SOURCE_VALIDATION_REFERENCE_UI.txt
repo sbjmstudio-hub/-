@@ -1,0 +1,20 @@
+WIRZA v3.4 Reference UI / Item Counter / Server Safe source validation
+
+Validated in this environment:
+- Module registry: 54 entries / 54 unique IDs.
+- Clock ID removed; Timer ID present.
+- ItemHistory.cpp: C++20 syntax PASS with Windows compatibility stub.
+- ServerPolicy.cpp: C++20 syntax PASS with Windows compatibility stub.
+- ModuleRegistry.cpp: C++20 syntax PASS with Windows compatibility stub.
+- Settings.cpp: C++20 syntax PASS with Windows compatibility stub.
+- AutoGGController.cpp / ToggleInputController.cpp: C++20 syntax PASS with Windows compatibility stub.
+- UI.cpp: C++20 syntax PASS using a local Dear ImGui/Windows declaration stub; no source errors detected.
+- New files registered in client CMakeLists.txt.
+- GitHub workflow remains Windows Server 2022 / MSVC Release x64 and optional Authenticode signing.
+
+Not validated here:
+- Full MSVC/Windows SDK link.
+- Minecraft for Windows runtime behavior.
+- OBS Game Capture runtime capture.
+- Runtime server hostname detection against every server edge address.
+- Auto Text Hotkey removed; Auto GG is the only automatic chat module and is one-shot on victory.

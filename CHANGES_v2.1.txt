@@ -1,0 +1,7 @@
+WIRZA Client v2.1 Fix
+- Native Minecraft pause screen is opened/closed together with the WIRZA menu.
+- Fixed keystrokes/C input detection by matching foreground window process ID.
+- Fixed the input-side cause of C-hold Zoom not activating.
+- Added user-provided emblem-only WIRZA logo asset (no GAMING ESPORTS/WIRZA text).
+- Added D3D12/WIC logo texture loading.
+- Custom Crosshair remains removed.

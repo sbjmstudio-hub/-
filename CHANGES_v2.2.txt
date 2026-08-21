@@ -1,0 +1,7 @@
+WIRZA Client Phase 1 Native v2.2 - Build Fix
+
+- BUILD.bat no longer requires cmake.exe to be on the global PATH.
+- Automatically finds CMake bundled with Visual Studio / Build Tools.
+- Verifies Git, Visual Studio C++ Build Tools, MSVC (cl.exe), CMake separately.
+- Adds CHECK_BUILD_TOOLS.bat for easier troubleshooting.
+- No gameplay/client feature changes from v2.1.

@@ -1,0 +1,17 @@
+Wirza_Cliant v3.4 - product naming update
+
+Requested product name: Wirza_Cliant
+Spelling "Cliant" is intentional.
+
+Updated:
+- Windows launcher output: Wirza_Cliant.exe
+- Injected client DLL output: Wirza_Cliant.dll
+- Launcher DLL lookup/module check/log naming
+- Windows version resource ProductName/FileDescription/InternalName
+- Application manifest assembly identity
+- In-game menu visible product title
+- APPDATA profile folder name
+- GitHub Actions workflow/artifact/package names
+- Primary README/build/security documentation
+
+Internal C++ namespace/symbol identifiers may retain historical "wirza" naming where changing them provides no user-visible benefit and would only increase regression risk.

@@ -1,0 +1,20 @@
+Third-party components downloaded at build time:
+
+1) Dear ImGui
+   Official repository: https://github.com/ocornut/imgui
+   Pinned tag: v1.90.9
+   License: MIT
+
+2) MinHook
+   Official repository: https://github.com/TsudaKageyu/minhook
+   Pinned tag: v1.3.4
+   License: BSD 2-Clause style (see upstream LICENSE.txt)
+
+3) EnTT
+   Official repository: https://github.com/skypjack/entt
+   Pinned commit: fe8d7d78c4823e8a66a050bf86f5c6318cf76ce7
+   License: MIT
+
+Reference/compatibility research:
+Latite Client (https://github.com/LatiteClient/Latite), GPL-3.0.
+WIRZA's Phase 1 Zoom version adapter was independently organized for this project, while current Minecraft renderer structure/signature information was checked against Latite's public GPL-3.0 source. No Latite UI/assets are bundled.

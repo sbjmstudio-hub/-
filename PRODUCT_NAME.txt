@@ -1,0 +1,5 @@
+Product name: Wirza_Cliant
+Spelling is intentional: Cliant (not Client).
+Build outputs:
+  Wirza_Cliant.exe
+  Wirza_Cliant.dll

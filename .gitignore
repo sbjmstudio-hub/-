@@ -1,0 +1,33 @@
+# CMake / Visual Studio build outputs
+build/
+out/
+dist/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs/
+
+# Compiled binaries
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.obj
+
+# Runtime-generated WIRZA files
+Wirza_Cliant.log
+wirza-settings.json
+wirza-settings.json.tmp
+profiles/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

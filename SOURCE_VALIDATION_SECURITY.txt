@@ -1,0 +1,20 @@
+WIRZA v3.4 Security / false-positive hardening static validation
+
+PASS: 54 module entries / 54 unique IDs
+PASS: module states remain 20 Implemented / 33 Partial / 1 Planned (Screenshot only)
+PASS: launcher no longer contains system("pause") or intentional cmd.exe spawning
+PASS: launcher manifest requests asInvoker and uiAccess=false
+PASS: launcher/client MSVC hardening includes /sdl, CFG, DEP, ASLR, high-entropy ASLR
+PASS: launcher no longer links unused advapi32
+PASS: GitHub Actions YAML parses successfully
+PASS: GitHub Actions optional Authenticode signing uses repository secrets only
+PASS: GitHub Actions emits SHA256SUMS.txt and BUILD_METADATA.txt
+PASS: no Defender/security-product exclusion creation or disabling logic was added
+PASS: no packer, obfuscator, signature spoofing, process hollowing, shellcode, or RWX injection was added
+
+Not verified in this environment:
+- Full Windows/MSVC build
+- Authenticode signing with a real certificate
+- Microsoft SmartScreen reputation
+- SUPER SECURITY / Bitdefender detection result
+- Minecraft runtime loading / OBS capture

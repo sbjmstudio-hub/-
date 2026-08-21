@@ -1,0 +1,47 @@
+WIRZA v3.4 Alpha 4G changes
+
+ADDED
+- ExtendedFeatureBridge.cpp/.h
+- ExtendedSignatureProfiles.h with empty exact-build allow-list
+- RadioPlayer.cpp/.h using Windows Media Foundation MFPlay
+- ToggleInputController.cpp/.h
+- Waypoint parsing/rendering in VisualEffects
+- Scoreboard/BossBar/Chat/Titles/Pack HUD renderers fed by ExtendedFeatureBridge snapshots
+- Particle visual policy (amount, size, color override)
+- Diagnostics/status UI for extended adapters and radio
+- Radio Play/Stop buttons in Advanced Settings
+
+CHANGED
+- Particle Changer: Planned -> Partial
+- Scoreboard: Planned -> Partial
+- Boss Bar: Planned -> Partial
+- Chat Mod: Planned -> Partial
+- Titles: Planned -> Partial
+- Scrollable Tooltips: Planned -> Partial
+- Pack Display: Planned -> Partial
+- Waypoints: Planned -> Partial
+- Radio / Lunar FM: Planned -> Partial
+- Toggle Sneak / Toggle Sprint: Planned -> Partial
+
+UNCHANGED BY REQUEST
+- Screenshot / Screenshot Uploader remains Planned.
+
+SAFETY
+- No guessed Bedrock signature/ABI was introduced.
+- No packet, reach, attack, anti-cheat or server-visible game-state modification.
+
+ADDITIONAL RECOUNT SWEEP
+- 2D Items: Planned -> Partial
+- Auto Text Actions: Planned -> Partial
+- Auto Text Hotkey: Planned -> Partial
+- GUI Scale: Planned -> Partial
+- Item Physics: Planned -> Partial
+- Kill Sounds: Planned -> Partial
+- Momentum: Planned -> Partial
+- Nick Hider: Planned -> Partial
+- Pack Organizer: Planned -> Partial
+- Added AutoTextController.cpp/.h
+- Added Momentum velocity text/history graph
+- Added ExtendedFeatureBridge policies for 2D items, GUI scale, item physics, kill sounds, nick hider and pack organizer
+
+Final state count: 17 Implemented / 37 Partial / 1 Planned (Screenshot only).

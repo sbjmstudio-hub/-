@@ -1,0 +1,22 @@
+■セキュリティ確認結果
+
+[Dear ImGui]
+- 配布元：GitHub ocornut/imgui
+- 公式性：作者Omar Cornutの公式リポジトリ。MIT License。
+- URLの不自然さ：なし。github.com/ocornut/imgui のみをビルド時に取得。
+- 外部リンク誘導の有無：ビルド処理ではなし。
+- 広告リンク誤クリックの危険：なし。BUILD.batはGitリポジトリを直接取得。
+- 口コミ・評判の懸念：ゲーム/ツール開発で広く利用されるOSS。確認した範囲で重大な配布元懸念なし。
+- 判定：問題ないレベルで案内可能
+
+[MinHook]
+- 配布元：GitHub TsudaKageyu/minhook
+- 公式性：MinHook公式GitHubリポジトリ。BSD 2-Clause系ライセンス。
+- URLの不自然さ：なし。github.com/TsudaKageyu/minhook のみをビルド時に取得。
+- 外部リンク誘導の有無：ビルド処理ではなし。
+- 広告リンク誤クリックの危険：なし。BUILD.batはGitリポジトリを直接取得。
+- 口コミ・評判の懸念：Windows API Hook用途で広く利用されるOSS。確認した範囲で重大な配布元懸念なし。
+- 判定：問題ないレベルで案内可能
+
+注意：DLLを別プロセスへ読み込む方式そのものは、セキュリティ製品が「注入」として警告することがあります。
+これはWIRZA Launcherの設計上の動作です。Anti-Cheat回避や検知回避の処理は含めていません。

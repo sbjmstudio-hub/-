@@ -1,0 +1,30 @@
+WIRZA v3.4 Auto GG / GitHub source validation
+Date: 2026-08-21
+
+PASS: active registry = 54 modules / 54 unique IDs
+PASS: states = 20 Implemented / 33 Partial / 1 Planned
+PASS: Auto Text Hotkey removed from active source registry
+PASS: Auto Text Actions removed from active source registry
+PASS: Auto GG present exactly once
+PASS: modules_manifest_54.json remaining_count=54 and 54 unique IDs
+PASS: AutoGGController.cpp C++20 syntax-only with Windows compatibility stub
+PASS: ServerPolicy.cpp C++20 syntax-only with Windows calling-convention stub
+PASS: ModuleRegistry.cpp C++20 syntax-only with Windows compatibility stub
+PASS: client CMakeLists.txt references AutoGGController.cpp/.h and no AutoTextController files
+PASS: GitHub Actions workflow YAML parses
+PASS: GitHub Actions packages MODULE_STATUS_54.md
+PASS: Hive Server Safe Mode allows auto_gg
+PASS: CubeCraft/Lifeboat/MegaSMP/unknown multiplayer remain conservative for auto_gg
+PASS: Auto GG message is fixed to "gg"
+PASS: no kill-trigger, arbitrary hotkey-trigger, click-trigger, or movement-trigger exists in AutoGGController
+PASS: send path uses vanilla chat UI input (T -> Unicode text -> Enter), not packet fabrication
+PASS: one-shot latch + delayed re-arm are present to prevent repeated result-screen spam
+
+Not validated in this environment:
+- Full Windows/MSVC link
+- Minecraft for Windows runtime Title/Chat adapter
+- Actual server victory-screen wording for every game mode
+- OBS Game Capture runtime
+- Authenticode signing with a real certificate
+
+Auto GG remains Partial until an exact Minecraft build adapter is runtime-verified.

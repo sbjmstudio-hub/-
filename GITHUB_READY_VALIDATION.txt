@@ -1,0 +1,38 @@
+WIRZA v3.4 GitHub Memory Write / OBS Build-Ready Validation
+Date: 2026-08-21
+
+Repository build preparation retained:
+- .github/workflows/build-windows.yml
+- CMakePresets.json
+- .gitignore
+- README.md
+- README_GITHUB_BUILD_JA.md
+- LICENSE
+- Windows x64 Release artifact packaging for Wirza_Cliant.exe + Wirza_Cliant.dll
+
+New source integration:
+- MemoryWriteBridge.cpp/.h added to client CMake target
+- FOV / Zoom guarded hook integration
+- Reversible GuiData GUI-scale memory writes
+- Native gamma-hook Lighting path + D3D12 fallback
+- D3D12 swapchain process-ownership verification
+- OBS Game Capture hook detection / launcher ordering assistance
+- WIRZA menu diagnostics for Memory Write and capture path
+
+Static checks in this environment:
+- Module registry: 54 entries / 54 unique IDs: PASS
+- State counts: 20 Implemented / 33 Partial / 1 Planned: PASS
+- Screenshot is the only Planned module: PASS
+- modules_manifest_54.json remaining_count=54: PASS
+- MemoryWriteBridge C++20 syntax-only: PASS with platform stubs
+- GameBridge C++20 syntax-only: PASS
+- CMakePresets JSON: PASS
+- GitHub Actions workflow YAML: PASS
+- ZIP integrity: recorded after package creation
+
+Not performed here:
+- GitHub Actions execution
+- Windows/MSVC full compilation
+- Minecraft for Windows load/runtime test
+- OBS Game Capture verification
+- Code signing

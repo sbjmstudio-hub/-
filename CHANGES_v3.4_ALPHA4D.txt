@@ -1,0 +1,18 @@
+WIRZA v3.4 Alpha 4D changes
+
++ Added ItemMaterialRenderBridge.cpp/.h
++ Added MaterialSignatureProfiles.h
++ Added strict exact-build material adapter gate
++ Added Glint Colorizer visual policy (color, strength, animation speed)
++ Added Shiny Pots visual policy (potion filter, shine color, strength, local glint request)
++ Added item/material bridge status to the WIRZA sidebar
++ Added bridge startup wiring in ClientCore
++ Added new files to client CMake target
+~ Glint Colorizer state: Planned -> Partial
+~ Shiny Pots state: Planned -> Partial
+~ Preserved 55 remaining modules
+
+Runtime note:
+No Windows/Minecraft runtime verification was performed in this environment.
+The verified material signature profile list is intentionally empty; unsupported builds
+stay safely disabled rather than using guessed offsets/signatures.

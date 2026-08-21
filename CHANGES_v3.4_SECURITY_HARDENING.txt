@@ -1,0 +1,10 @@
+WIRZA v3.4 Security / False-positive hardening
+
+- Removed system("pause") so the launcher no longer spawns cmd.exe just to wait for input.
+- Added explicit asInvoker application manifest (no administrator request).
+- Added version/company/file metadata to the launcher resource.
+- Enabled MSVC /sdl and Control Flow Guard; enabled DEP, ASLR, high-entropy ASLR and reproducible linker mode.
+- Removed unused advapi32 link from launcher.
+- Added optional Authenticode signing in GitHub Actions via repository secrets.
+- Added build metadata and SHA-256 checksum files to release artifacts.
+- No AV bypass, obfuscation, packing, signature spoofing, security-tool disabling or exclusion creation.

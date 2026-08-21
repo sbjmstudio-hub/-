@@ -1,0 +1,13 @@
+WIRZA v3.4 Alpha 4F
+
+- Added EnvironmentRenderBridge.cpp/.h.
+- Added EnvironmentRenderSignatureProfiles.h exact-build capability gate.
+- Fog / Fog Customizer moved Planned -> Partial.
+- Added fog-color blend policy with engine alpha preserved.
+- Added verified-offset-only fog density/start scaling policy.
+- Overlay Mod moved Planned -> Partial.
+- Added separate fire/water/in-block opacity multiplier policies.
+- Added environment adapter status to diagnostics UI.
+- Added bridge installation to ClientCore.
+- Added new source files to client CMake target.
+- No guessed Minecraft signature/offset/ABI profile was added.

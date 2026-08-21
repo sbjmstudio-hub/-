@@ -1,0 +1,22 @@
+WIRZA v3.4 - Reference UI / Item Counter / Server Safe revision
+
+Added
+- Dark navy + purple reference UI based on the supplied screenshot.
+- Animated sidebar selection, animated switches, module-card hover transitions and animated keystroke colors.
+- Top-center compass tape for Direction HUD.
+- Persistent ItemHistory stored in %APPDATA%\WIRZA Client\item_history.txt.
+- Item Counter multi-select picker: each previously observed item can be toggled independently.
+- ServerPolicy: recognizes Hive, CubeCraft, Lifeboat, MegaSMP/InPvP and unknown multiplayer; auto-disables restricted/ambiguous modules.
+- Global HUD settings for animations, background, shadow, hide-when-inactive and save-position.
+
+Changed
+- Clock module replaced by Timer. Stopwatch remains independent.
+- Main module menu now uses a 4-column card layout with HUD / Visual / PvP / World / Movement / Misc / Profiles / Settings navigation.
+- HUD cards use dark translucent navy styling with purple accents and optional shadows.
+
+Security
+- No antivirus bypass or detection-evasion code was added.
+- Existing asInvoker, DEP/ASLR/CFG, transparent hashes/build metadata and optional Authenticode workflow are retained.
+
+Runtime status
+- Source/static validation only in this environment. Windows/MSVC + Minecraft + OBS runtime validation is still required.

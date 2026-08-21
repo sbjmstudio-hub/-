@@ -1,0 +1,22 @@
+WIRZA v3.4 Alpha 4A — Visual Batch 1 changes
+
+ADDED
+- src/client/VisualEffects.cpp
+- src/client/VisualEffects.h
+- README_v3.4_ALPHA4_VISUALS.txt
+- ALPHA4_REMAINING_DESIGN.md
+
+CHANGED
+- D3D12Hooks: SRV heap 2 -> 4 descriptors; two motion-history textures; safe copy/transition path
+- UI: VisualEffects rendering stage; Menu Blur configurable backdrop ownership
+- GameDataBridge: target ray-start and exact integer block origin retained
+- GameBridge: read-only current Zoom modifier exposed for visual projection
+- ModuleRegistry: Block Outline / Lighting / Menu Blur / Motion Blur -> Partial
+- MODULE_STATUS_55.md / SOURCE_VALIDATION.txt / IMPLEMENTATION_PLAN.md updated
+
+UNCHANGED SAFETY BOUNDARY
+- no attack/reach increase
+- no movement manipulation
+- no packet tampering
+- no anti-cheat bypass
+- no stealth injection / AV bypass

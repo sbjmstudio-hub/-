@@ -1,0 +1,9 @@
+WIRZA v3.4 Alpha 4B
+- Added D3D12 ColorPostProcess pipeline.
+- Added runtime-compiled VS/PS shader through D3DCompile.
+- Added SRV slot 4 for color post-process source texture.
+- Increased shared shader-visible SRV heap from 4 to 5 descriptors.
+- Added d3dcompiler link dependency.
+- Color Saturation now uses real pixel-shader saturation/contrast/brightness math.
+- Reordered Motion Blur capture to store the color-corrected Minecraft frame before WIRZA HUD.
+- Color Saturation state changed Planned -> Partial pending Windows/Minecraft runtime verification.

@@ -1,0 +1,426 @@
+{
+  "original_module_count": 93,
+  "removed_count": 39,
+  "remaining_count": 54,
+  "removed_original_numbers": [
+    2,
+    4,
+    5,
+    7,
+    11,
+    14,
+    15,
+    16,
+    20,
+    22,
+    26,
+    29,
+    32,
+    33,
+    34,
+    35,
+    39,
+    43,
+    46,
+    47,
+    50,
+    51,
+    61,
+    62,
+    65,
+    66,
+    67,
+    74,
+    75,
+    76,
+    77,
+    79,
+    80,
+    81,
+    82,
+    84,
+    89,
+    90,
+    93
+  ],
+  "remaining": [
+    {
+      "new_number": 1,
+      "original_number": 1,
+      "id": "2d_items",
+      "name": "2D Items",
+      "category": "Visual"
+    },
+    {
+      "new_number": 2,
+      "original_number": 3,
+      "id": "armor_status",
+      "name": "Armor Status",
+      "category": "HUD"
+    },
+    {
+      "new_number": 3,
+      "original_number": 6,
+      "id": "auto_gg",
+      "name": "Auto GG",
+      "category": "Utility"
+    },
+    {
+      "new_number": 4,
+      "original_number": 8,
+      "id": "block_outline",
+      "name": "Block Outline",
+      "category": "Visual"
+    },
+    {
+      "new_number": 5,
+      "original_number": 9,
+      "id": "boss_bar",
+      "name": "Boss Bar",
+      "category": "HUD"
+    },
+    {
+      "new_number": 6,
+      "original_number": 10,
+      "id": "chat_mod",
+      "name": "Chat Mod",
+      "category": "HUD"
+    },
+    {
+      "new_number": 7,
+      "original_number": 12,
+      "id": "timer",
+      "name": "Timer",
+      "category": "HUD"
+    },
+    {
+      "new_number": 8,
+      "original_number": 13,
+      "id": "color_saturation",
+      "name": "Color Saturation",
+      "category": "Visual"
+    },
+    {
+      "new_number": 9,
+      "original_number": 17,
+      "id": "cps",
+      "name": "CPS",
+      "category": "HUD"
+    },
+    {
+      "new_number": 10,
+      "original_number": 18,
+      "id": "crosshair",
+      "name": "Crosshair",
+      "category": "Visual"
+    },
+    {
+      "new_number": 11,
+      "original_number": 19,
+      "id": "damage_tint",
+      "name": "Damage Tint",
+      "category": "Visual"
+    },
+    {
+      "new_number": 12,
+      "original_number": 21,
+      "id": "direction_hud",
+      "name": "Direction HUD",
+      "category": "HUD"
+    },
+    {
+      "new_number": 13,
+      "original_number": 23,
+      "id": "fog",
+      "name": "Fog / Fog Customizer",
+      "category": "Visual"
+    },
+    {
+      "new_number": 14,
+      "original_number": 24,
+      "id": "fov",
+      "name": "FOV",
+      "category": "Camera"
+    },
+    {
+      "new_number": 15,
+      "original_number": 25,
+      "id": "fps",
+      "name": "FPS",
+      "category": "HUD"
+    },
+    {
+      "new_number": 16,
+      "original_number": 27,
+      "id": "glint_colorizer",
+      "name": "Glint Colorizer",
+      "category": "Visual"
+    },
+    {
+      "new_number": 17,
+      "original_number": 28,
+      "id": "gui_scale",
+      "name": "GUI Scale",
+      "category": "Visual"
+    },
+    {
+      "new_number": 18,
+      "original_number": 30,
+      "id": "hit_color",
+      "name": "Hit Color",
+      "category": "Visual"
+    },
+    {
+      "new_number": 19,
+      "original_number": 31,
+      "id": "horse_stats",
+      "name": "Horse Stats",
+      "category": "HUD"
+    },
+    {
+      "new_number": 20,
+      "original_number": 36,
+      "id": "item_counter",
+      "name": "Item Counter",
+      "category": "HUD"
+    },
+    {
+      "new_number": 21,
+      "original_number": 37,
+      "id": "item_customizer",
+      "name": "Item Customizer",
+      "category": "Visual"
+    },
+    {
+      "new_number": 22,
+      "original_number": 38,
+      "id": "item_physics",
+      "name": "Item Physics",
+      "category": "Visual"
+    },
+    {
+      "new_number": 23,
+      "original_number": 40,
+      "id": "keystrokes",
+      "name": "Keystrokes",
+      "category": "HUD"
+    },
+    {
+      "new_number": 24,
+      "original_number": 41,
+      "id": "kill_sounds",
+      "name": "Kill Sounds",
+      "category": "Audio"
+    },
+    {
+      "new_number": 25,
+      "original_number": 42,
+      "id": "lighting",
+      "name": "Lighting",
+      "category": "Visual"
+    },
+    {
+      "new_number": 26,
+      "original_number": 44,
+      "id": "memory_usage",
+      "name": "Memory Usage",
+      "category": "HUD"
+    },
+    {
+      "new_number": 27,
+      "original_number": 45,
+      "id": "menu_blur",
+      "name": "Menu Blur",
+      "category": "Visual"
+    },
+    {
+      "new_number": 28,
+      "original_number": 48,
+      "id": "momentum",
+      "name": "Momentum",
+      "category": "Visual"
+    },
+    {
+      "new_number": 29,
+      "original_number": 49,
+      "id": "motion_blur",
+      "name": "Motion Blur",
+      "category": "Visual"
+    },
+    {
+      "new_number": 30,
+      "original_number": 52,
+      "id": "nick_hider",
+      "name": "Nick Hider",
+      "category": "Privacy"
+    },
+    {
+      "new_number": 31,
+      "original_number": 53,
+      "id": "one_seven_visuals",
+      "name": "1.7 Visuals",
+      "category": "Visual"
+    },
+    {
+      "new_number": 32,
+      "original_number": 54,
+      "id": "overlay_mod",
+      "name": "Overlay Mod",
+      "category": "Visual"
+    },
+    {
+      "new_number": 33,
+      "original_number": 55,
+      "id": "pack_display",
+      "name": "Pack Display",
+      "category": "HUD"
+    },
+    {
+      "new_number": 34,
+      "original_number": 56,
+      "id": "pack_organizer",
+      "name": "Pack Organizer",
+      "category": "Utility"
+    },
+    {
+      "new_number": 35,
+      "original_number": 57,
+      "id": "particle_changer",
+      "name": "Particle Changer",
+      "category": "Visual"
+    },
+    {
+      "new_number": 36,
+      "original_number": 58,
+      "id": "ping",
+      "name": "Ping",
+      "category": "HUD"
+    },
+    {
+      "new_number": 37,
+      "original_number": 59,
+      "id": "playtime",
+      "name": "Playtime",
+      "category": "HUD"
+    },
+    {
+      "new_number": 38,
+      "original_number": 60,
+      "id": "potion_effects",
+      "name": "Potion Effects",
+      "category": "HUD"
+    },
+    {
+      "new_number": 39,
+      "original_number": 63,
+      "id": "radio",
+      "name": "Radio / Lunar FM",
+      "category": "Audio"
+    },
+    {
+      "new_number": 40,
+      "original_number": 64,
+      "id": "reach_display",
+      "name": "Reach Display",
+      "category": "HUD"
+    },
+    {
+      "new_number": 41,
+      "original_number": 68,
+      "id": "scoreboard",
+      "name": "Scoreboard",
+      "category": "HUD"
+    },
+    {
+      "new_number": 42,
+      "original_number": 69,
+      "id": "screenshot",
+      "name": "Screenshot / Screenshot Uploader",
+      "category": "Utility"
+    },
+    {
+      "new_number": 43,
+      "original_number": 70,
+      "id": "scrollable_tooltips",
+      "name": "Scrollable Tooltips",
+      "category": "UI"
+    },
+    {
+      "new_number": 44,
+      "original_number": 71,
+      "id": "server_address",
+      "name": "Server Address",
+      "category": "HUD"
+    },
+    {
+      "new_number": 45,
+      "original_number": 72,
+      "id": "shields",
+      "name": "Shields",
+      "category": "Visual"
+    },
+    {
+      "new_number": 46,
+      "original_number": 73,
+      "id": "shiny_pots",
+      "name": "Shiny Pots",
+      "category": "Visual"
+    },
+    {
+      "new_number": 47,
+      "original_number": 78,
+      "id": "stopwatch",
+      "name": "Stopwatch",
+      "category": "HUD"
+    },
+    {
+      "new_number": 48,
+      "original_number": 83,
+      "id": "titles",
+      "name": "Titles",
+      "category": "HUD"
+    },
+    {
+      "new_number": 49,
+      "original_number": 85,
+      "id": "toggle_sneak_sprint",
+      "name": "Toggle Sneak / Toggle Sprint",
+      "category": "Input"
+    },
+    {
+      "new_number": 50,
+      "original_number": 86,
+      "id": "totem_counter",
+      "name": "Totem Counter",
+      "category": "HUD"
+    },
+    {
+      "new_number": 51,
+      "original_number": 87,
+      "id": "waila",
+      "name": "WAILA",
+      "category": "HUD"
+    },
+    {
+      "new_number": 52,
+      "original_number": 88,
+      "id": "waypoints",
+      "name": "Waypoints",
+      "category": "World"
+    },
+    {
+      "new_number": 53,
+      "original_number": 91,
+      "id": "zoom",
+      "name": "Zoom",
+      "category": "Camera"
+    },
+    {
+      "new_number": 54,
+      "original_number": 92,
+      "id": "potion_counter",
+      "name": "Potion Counter",
+      "category": "HUD"
+    }
+  ]
+}

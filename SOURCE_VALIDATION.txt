@@ -1,0 +1,46 @@
+WIRZA v3.4 Memory Write / OBS integration source validation
+Date: 2026-08-21
+
+Registry / package consistency:
+- Active module entries: 54
+- Unique module IDs: 54
+- modules_manifest_54.json remaining_count: 54
+- Registry state count: 20 Implemented / 33 Partial / 1 Planned
+- Only Planned module: Screenshot / Screenshot Uploader (intentionally skipped by user request)
+
+MemoryWriteBridge checks:
+- Added to src/client/CMakeLists.txt: PASS
+- MemoryWriteBridge.cpp C++20 syntax-only check with minimal Windows/MinHook platform stubs: PASS
+- GameBridge.cpp C++20 syntax-only check: PASS
+- FOV and gamma hooks initialize independently: PASS by source inspection
+- GuiData writes validate pointer/ranges/reciprocal/page write permission before memcpy: PASS by source inspection
+- GuiData original scale backup + module-disable/HUD-only restore path: PRESENT
+- No VirtualProtect call is used to force Minecraft pages writable
+- Old direct raw-FOV offset writes were removed from GameBridge.cpp
+- 70-degree hand projection is preserved; a legitimate 60-degree main camera FOV is not skipped
+
+OBS / D3D12 checks:
+- WIRZA HUD/menu still render inside the Minecraft D3D12 swapchain path before Present
+- Renderer validates DXGI OutputWindow process ownership before attaching
+- CaptureStatus diagnostics are exposed in the WIRZA menu
+- Launcher detects obs64.exe/obs32.exe and checks Minecraft for graphics-hook64.dll/graphics-hook32.dll before loading WIRZA
+- Launcher avoids loading a second Wirza_Cliant.dll when already present
+
+GitHub build files:
+- CMakePresets.json parses: PASS
+- .github/workflows/build-windows.yml YAML parses: PASS
+- GitHub Actions runner remains windows-2022 / Visual Studio 2022-compatible setup
+
+Safety-scope checks:
+- No reach increase write added
+- No damage/attack-rate write added
+- No movement-speed/fly write added
+- No knockback write added
+- No inventory or packet write added
+- No anti-cheat bypass, stealth, or AV-evasion behavior added
+
+Validation boundary:
+- No Windows/MSVC full-project build was performed in this environment
+- No Minecraft for Windows runtime test was performed in this environment
+- No OBS Game Capture runtime test was performed in this environment
+- Therefore runtime compatibility/capture success is not claimed yet
